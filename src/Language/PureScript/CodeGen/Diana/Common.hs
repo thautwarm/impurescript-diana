@@ -24,7 +24,7 @@ instance SpecialName Text where
   newObject = "new"
   thisName = "this"
   importName = "require"
-  updateRecord = "Dict.update"
+  updateRecord = "Dict.union_dict"
   ranger = "Enum.range"
 
 prettyText :: Text -> Doc a
